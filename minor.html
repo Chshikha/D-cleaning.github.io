@@ -1,0 +1,223 @@
+<html>
+<title>minor</title>
+<link rel="stylesheet" href="minor.css">
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#process" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROCESS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#process" class="w3-bar-item w3-button" onclick="toggleFunction()">PROCESS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY<span class="w3-hide-small">WEBSITE</span> LOGO</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">ABOUT MACHINE LEARNING</h2>
+  <p class="w3-center"><em</em></p>
+  <p>Machine learning is all about training and feeding data to algorithms to perform various compute intensive tasks. However, businesses typically face challenges in feeding the right data to machine learning algorithms or cleaning of irrelevant and error-prone data. In other words, when it comes to utilizing ML data, most of the time is spent on cleaning data sets or creating a dataset that is free of errors. Setting up a quality plan, filling missing values, removing rows, reducing data size are some of the best practices used for data cleaning in Machine Learning.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+<br><br> <br> <br>
+     
+      <img src="s.jpeg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="data cleaning" width="300" height="300">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+<p><i class="fa fa-user w3-margin-left"></i> DATA CLEANING</p><br>
+      <p>The main aim of Data Cleaning is to identify and remove errors & duplicate data, in order to create a reliable dataset. This improves the quality of the training data for analytics and enables accurate decision-making.
+
+Needless to say, data cleansing is a time-consuming process and most data scientists spend an enormous amount of time in enhancing the quality of the data. However, there are various methods to identify and classify data for data cleansing..</p>
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">ADVANTAGES OF USING DATA CLEANING:</p>
+  <p class="w3-wide"><i class=""></i>Boost results and revenue</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-mon"></i>Save money and reduce waste</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-watch"></i>Save time and increase productivity</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+      </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+
+    <span class="w3-xxlarge w3-text-white w3-wide">PROCESS</span>
+  </div>
+</div>
+<div class="w3-content w3-container w3-padding-64" id="process">
+  <h2 class="w3-center">Handling Missing Values </h2>
+
+  <ol class="c"><br>
+  <li>Call The Data Set </li> 
+<p> A data set (or dataset) is a collection of data. In the case of tabular data, a data set corresponds to one or more database tables, where every column of a table represents a particular variable, and each row corresponds to a given record of the data set in question. The data set lists values for each of the variables, such as height and weight of an object, for each member of the data set. Each value is known as a datum. Data sets can also consist of a collection of documents or file </p><br>
+ <img src="1.jpg" alt="data calling" width="800" height="350"><br>
+ <br><br> <br>
+The info() function is used to print a concise summary of a DataFrame. This method prints information about a DataFrame including the index dtype and column dtypes, non-null values and memory usage.<br><br>
+<br>  <img src="info.png" alt="info" width="800" height="400"><br>
+<br> <br> <br> <li>Identify Missing Values</li><br>
+  isnull() Detect missing values for an array-like object. This function takes a scalar or array-like object and indicates whether values are missing ( NaN in numeric arrays, None or NaN in object arrays, NaT in datetimelike).
+   isnull(). sum() returns the sum of total number of missing values in the data set. <br><br>
+ <img src="null.jpg" alt="data calling" width="800" height="350"><br><br>
+   A heatmap is a graphical representation where individual values of a matrix are represented as colors. A heatmap is very useful in visualizing the concentration of values between two dimensions of a matrix. This helps in finding patterns and gives a perspective of depth. <br><br> <br>
+<img src="3.jpg" alt="heat map" width="800" height="400"> <br> <br><br> <br>
+<img src="p.png" alt="data calling" width="800" height="350"><br><br>
+<li>Drop missing values</li><br> 
+The dropna() function is used to remove missing values. Determine if rows or columns which contain missing values are removed. 0, or 'index' : Drop rows which contain missing values.<br><br>
+
+<br>
+<img src="111.jpg" alt="data calling" width="800" height="350"><br><br>
+
+<br><br><img src="11.jpg" alt="data calling" width="800" height="350"><br><br><br> 
+<li> After cleaning the data </li>
+</ol>
+<br><img src="1111.jpg" alt="data calling" width="800" height="350"><br><br><br>
+<br><br><h2> The benefits of data cleaning</h2>
+<p>Knowing how to clean data is advantageous for three reasons:</p>
+<ol>
+<li>It prevents your company from throwing money at strategies based on wobbly or even faulty analyses</li>
+<li>It prevents you from making the wrong conclusions, which could cost you your reputation</li>
+<li>It makes your analyses run faster. Correct, properly cleaned and formatted data speed up computation in advanced algorithms</li>
+</ol><br>
+<p>In this guide, we will take you through the process of getting your hands dirty with cleaning data. Get ready, because we will dive into the practical aspects and little details that make the big picture shine brighter.</p>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  
+    
+      <p>For feedback, or Suggestion leave me a note:</p>
+      <form form method="post" action="mailto:chshikha121@gmail.com?subject=subject&message=message target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> <p><a href="mailto:chshikha121@gmail.com">Send email</a></p>
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section"><a href="https://www.instagram.com/chshikha121/"</a>
+    
+  
+    <i class="fa fa-instagram w3-hover-opacity"></i><a href="https://www.linkedin.com/in/shikha-chaudhary-4ab91720a/"</a>
+
+    <i class="fa fa-linkedin w3-hover-opacity"></i><a href="https://www.facebook.com/shikha.choudhary.1614460"</a>
+   
+<i class="fa fa-facebook w3-hover-opacity"></i>
+  </div>
+  
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
